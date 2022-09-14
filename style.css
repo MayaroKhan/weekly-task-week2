@@ -1,0 +1,65 @@
+.wrapper {
+    width: 100%;
+}
+.img-banner{
+    display: none;
+}
+.img-ocean{
+    height: 200px;
+    width: 300px;
+}
+.img-info{
+    width: 100%;
+}
+.img-info h2{
+    padding: 30px 30px 20px;
+    font-family: Arial;
+    font-size: 30px;
+    color: black;
+}
+.img-info p{
+    padding: 0px 30px 20px;
+    font-family: Arial;
+    font-size: 30px;
+    color: black;
+}
+.img-ocean {
+    width: 100%;
+}
+
+@media only screen and (min-width: 800px){
+    .img-banner{
+        display: block;
+        width: 100%;
+        padding: 30px;
+    }
+    .wrapper {
+        width: 600px;
+        margin: 0 auto;
+    }
+    
+    .img-ocean{
+        height: 500px;
+        width: 600px;
+    }
+    .img-info{
+        width: 100%;
+    }
+    .img-info h2{
+        padding: 30px 30px 20px;
+        font-family: Arial;
+        font-size: 30px;
+        color: black;
+    }
+    .img-info p{
+        padding: 0px 30px 20px;
+        font-family: Arial;
+        font-size: 30px;
+        color: black;
+    }
+    
+    
+
+}
+
+    
